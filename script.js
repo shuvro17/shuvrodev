@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         contactForm.addEventListener('submit', function (e) {
             e.preventDefault();
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbxIgh6Bgxo0SIaVtv41Y0uRGrfLrtJgPEcecs063u8zIBRe7688gDWbV2eXYm_u0PQ/execE'; // Replace the old URL with the new one you just copied.
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxeAy6cz5x-EoMOYEa6GKF8NKi2DR8vO4f4QXAZJhKJcCALIdh3HRDArUudbe8Pp_aI/exec'; // Replace the old URL with the new one you just copied.
             const formData = new FormData(contactForm);
             const submitButton = contactForm.querySelector('.btn-submit');
 
