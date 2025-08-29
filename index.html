@@ -167,15 +167,16 @@
 
                 <section id="contact" class="tab-content">
                     <h3 class="section-title">Get in Touch</h3>
-                    <form action="#" class="contact-form">
+                    <form id="contact-form" class="contact-form">
                         <div class="input-group">
-                            <input type="text" placeholder="Full Name" required>
-                            <input type="email" placeholder="Email Address" required>
+                            <input type="text" name="name" placeholder="Full Name" required>
+                            <input type="email" name="email" placeholder="Email Address" required>
                         </div>
-                        <textarea placeholder="Your Message" rows="6" required></textarea>
+                        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
                         <button type="submit" class="btn-submit">
                             Send Message <i class="fas fa-paper-plane"></i>
                         </button>
+                        <p id="form-status"></p>
                     </form>
                 </section>
             </div>
