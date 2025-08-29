@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
         contactForm.addEventListener('submit', function (e) {
             e.preventDefault(); // Prevent the default form submission.
 
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbx_b2byvl6r4NWe5nE7PEPT_IwY0kgY46IN8kTIWbacbU9hacZ2OMho-tGTTUY1jpqc/exec'; // The URL you copied from Google.
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwN31HI_--Mh7qtCAlanceTqxe9neFymWcYkvmwodc_L_5JjGw9CiYXAx66kVlA5ok/exec'; // The URL you copied from Google.
             const formData = new FormData(contactForm);
             const submitButton = contactForm.querySelector('.btn-submit');
             const formStatus = document.getElementById('form-status');
