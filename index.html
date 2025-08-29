@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanvir Rahman Shuvro - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <div class="portfolio-container">
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <img src="images/profile.jpg" alt="Profile Photo" class="profile-photo">
+                <h1 class="name">Tanvir Rahman Shuvro</h1>
+                <h2 class="title">Aspiring Flutter Developer</h2>
+                <hr class="separator">
+                <ul class="contact-list">
+                    <li>
+                        <div class="icon-bg"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-info">
+                            <span>Email</span>
+                            <a href="mailto:shuvro15-5648@diu.edu.bd">shuvro15-5648@diu.edu.bd</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-bg"><i class="fab fa-linkedin"></i></div>
+                        <div class="contact-info">
+                            <span>LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/tanvir-rahman-shuvro-57337337a/" target="_blank">tanvir-rahman-shuvro</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-bg"><i class="fab fa-github"></i></div>
+                        <div class="contact-info">
+                            <span>GitHub</span>
+                            <a href="https://github.com/shuvro17" target="_blank">shuvro17</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-bg"><i class="fas fa-phone"></i></div>
+                        <div class="contact-info">
+                            <span>Phone</span>
+                            <a href="tel:+8801891908029">+880 1891 908029</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-bg"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-info">
+                            <span>Location</span>
+                            <p>Dhaka, Bangladesh</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <nav class="tabs">
+                <ul>
+                    <li><a href="#about" class="tab-link active" data-tab="about">About</a></li>
+                    <li><a href="#resume" class="tab-link" data-tab="resume">Resume</a></li>
+                    <li><a href="#portfolio" class="tab-link" data-tab="portfolio">Portfolio</a></li>
+                    <li><a href="#contact" class="tab-link" data-tab="contact">Contact</a></li>
+                </ul>
+            </nav>
+
+             <button id="darkModeToggle" class="toggle-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <div class="content-area">
+                <section id="about" class="tab-content active">
+                    <h3 class="section-title">About Me</h3>
+                    <p class="about-text">
+                        I am Tanvir Rahman Shuvro, a passionate and dedicated tech enthusiast with a strong interest in mobile app development, machine learning, and creative design. I enjoy building innovative solutions that combine functionality with user-friendly design. Over the years, I have worked on diverse projects ranging from Android app design and development to AI-powered applications, which have strengthened both my technical and problem-solving skills. My long-term vision is to grow as a versatile developer and entrepreneur while contributing to impactful projects that make a difference.
+                    </p>
+                    <h4 class="section-subtitle">What I do</h4>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="service-details">
+                                <h5>Mobile Development</h5>
+                                <p>Professional development of applications for iOS and Android using Flutter.</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-brain"></i></div>
+                            <div class="service-details">
+                                <h5>Machine Learning</h5>
+                                <p>Building AI-powered applications and exploring data-driven solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="resume" class="tab-content">
+                    <h3 class="section-title">Resume</h3>
+                    <a href="files/resume.pdf" download class="btn-download">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <div class="resume-grid">
+                        <div>
+                            <h4 class="section-subtitle"><i class="fas fa-briefcase"></i> Experience</h4>
+                             <div class="resume-item">
+                                <h5>Senior Executive</h5>
+                                <span class="date">2023 - Present</span>
+                                <p class="company">FAB Lab, DIU</p>
+                                <p>Working as a Senior Executive Member of the DIU Fabrication Lab.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="section-subtitle"><i class="fas fa-graduation-cap"></i> Education</h4>
+                            <div class="resume-item">
+                                <h5>Bachelor in Computer Science</h5>
+                                <span class="date">2022 - 2025</span>
+                                <p class="company">Daffodil International University</p>
+                            </div>
+                            <div class="resume-item">
+                                <h5>Higher Secondary</h5>
+                                <span class="date">2018 - 2020</span>
+                                <p class="company">Ideal College</p>
+                            </div>
+                        </div>
+                    </div>
+                     <h4 class="section-subtitle skills-title"><i class="fas fa-cogs"></i> Skills</h4>
+                     <div class="skills-grid">
+                        <span>Flutter</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>SQL</span>
+                    </div>
+                </section>
+
+                <section id="portfolio" class="tab-content">
+                    <h3 class="section-title">Portfolio</h3>
+                    <div class="portfolio-grid">
+                        <div class="project-card">
+                            <div class="project-info">
+                                <h5>Portfolio Website</h5>
+                                <p>A personal portfolio website hosted on GitHub Pages.</p>
+                                <a href="#" class="btn-secondary">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                             <div class="project-info">
+                                <h5>Machine Learning Project</h5>
+                                <p>Chest X-ray pneumonia classification using deep learning.</p>
+                                <a href="#" class="btn-secondary">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                             <div class="project-info">
+                                <h5>10th At DIU Growing Star</h5>
+                                <p>An achievement from 2023 recognizing growth and potential.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contact" class="tab-content">
+                    <h3 class="section-title">Get in Touch</h3>
+                    <form action="#" class="contact-form">
+                        <div class="input-group">
+                            <input type="text" placeholder="Full Name" required>
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <textarea placeholder="Your Message" rows="6" required></textarea>
+                        <button type="submit" class="btn-submit">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
