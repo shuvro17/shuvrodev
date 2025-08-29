@@ -5,14 +5,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tanvir Rahman Shuvro - Portfolio</title>
+    <!-- Favicon using your profile picture -->
+    <link rel="icon" href="images/profile.jpg" type="image/jpeg">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
+    <!-- Background Animation Container -->
     <div id="particles-js"></div>
 
+    <!-- Main Page Container -->
     <div class="portfolio-container">
+        <!-- Left Sidebar -->
         <aside class="sidebar">
             <div class="sidebar-content">
                 <img src="images/profile.jpg" alt="Profile Photo" class="profile-photo">
@@ -31,7 +36,8 @@
                         <div class="icon-bg"><i class="fab fa-linkedin"></i></div>
                         <div class="contact-info">
                             <span>LinkedIn</span>
-                            <a href="https://www.linkedin.com/in/tanvir-rahman-shuvro-57337337a/" target="_blank">tanvir-rahman-shuvro</a>
+                            <a href="https://www.linkedin.com/in/tanvir-rahman-shuvro-57337337a/"
+                                target="_blank">tanvir-rahman-shuvro</a>
                         </div>
                     </li>
                     <li>
@@ -59,25 +65,34 @@
             </div>
         </aside>
 
+        <!-- Right Main Content -->
         <main class="main-content">
             <nav class="tabs">
                 <ul>
                     <li><a href="#about" class="tab-link active" data-tab="about">About</a></li>
                     <li><a href="#resume" class="tab-link" data-tab="resume">Resume</a></li>
                     <li><a href="#portfolio" class="tab-link" data-tab="portfolio">Portfolio</a></li>
+                    <li><a href="#publications" class="tab-link" data-tab="publications">Publications</a></li>
                     <li><a href="#contact" class="tab-link" data-tab="contact">Contact</a></li>
                 </ul>
             </nav>
 
-             <button id="darkModeToggle" class="toggle-btn">
+            <button id="darkModeToggle" class="toggle-btn">
                 <i class="fas fa-moon"></i>
             </button>
 
             <div class="content-area">
+                <!-- About Section -->
                 <section id="about" class="tab-content active">
                     <h3 class="section-title">About Me</h3>
                     <p class="about-text">
-                        I am Tanvir Rahman Shuvro, a passionate and dedicated tech enthusiast with a strong interest in mobile app development, machine learning, and creative design. I enjoy building innovative solutions that combine functionality with user-friendly design. Over the years, I have worked on diverse projects ranging from Android app design and development to AI-powered applications, which have strengthened both my technical and problem-solving skills. My long-term vision is to grow as a versatile developer and entrepreneur while contributing to impactful projects that make a difference.
+                        I am Tanvir Rahman Shuvro, a passionate and dedicated tech enthusiast with a strong interest in
+                        mobile app development, machine learning, and creative design. I enjoy building innovative
+                        solutions that combine functionality with user-friendly design. Over the years, I have worked on
+                        diverse projects ranging from Android app design and development to AI-powered applications,
+                        which have strengthened both my technical and problem-solving skills. My long-term vision is to
+                        grow as a versatile developer and entrepreneur while contributing to impactful projects that
+                        make a difference.
                     </p>
                     <h4 class="section-subtitle">What I do</h4>
                     <div class="services-grid">
@@ -98,6 +113,7 @@
                     </div>
                 </section>
 
+                <!-- Resume Section -->
                 <section id="resume" class="tab-content">
                     <h3 class="section-title">Resume</h3>
                     <a href="files/resume.pdf" download class="btn-download">
@@ -106,11 +122,10 @@
                     <div class="resume-grid">
                         <div>
                             <h4 class="section-subtitle"><i class="fas fa-briefcase"></i> Experience</h4>
-                             <div class="resume-item">
+                            <div class="resume-item">
                                 <h5>Senior Executive</h5>
                                 <span class="date">2023 - Present</span>
                                 <p class="company">FAB Lab, DIU</p>
-                                <p>Working as a Senior Executive Member of the DIU Fabrication Lab.</p>
                             </div>
                         </div>
                         <div>
@@ -120,25 +135,16 @@
                                 <span class="date">2022 - 2025</span>
                                 <p class="company">Daffodil International University</p>
                             </div>
-                            <div class="resume-item">
-                                <h5>Higher Secondary</h5>
-                                <span class="date">2018 - 2020</span>
-                                <p class="company">Ideal College</p>
-                            </div>
                         </div>
                     </div>
-                     <h4 class="section-subtitle skills-title"><i class="fas fa-cogs"></i> Skills</h4>
-                     <div class="skills-grid">
-                        <span>Flutter</span>
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Python</span>
-                        <span>Machine Learning</span>
-                        <span>SQL</span>
+                    <h4 class="section-subtitle skills-title"><i class="fas fa-cogs"></i> Skills</h4>
+                    <div class="skills-grid">
+                        <span>Flutter</span> <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+                        <span>Python</span> <span>SQL</span>
                     </div>
                 </section>
 
+                <!-- Portfolio Section -->
                 <section id="portfolio" class="tab-content">
                     <h3 class="section-title">Portfolio</h3>
                     <div class="portfolio-grid">
@@ -150,21 +156,32 @@
                             </div>
                         </div>
                         <div class="project-card">
-                             <div class="project-info">
+                            <div class="project-info">
                                 <h5>Machine Learning Project</h5>
                                 <p>Chest X-ray pneumonia classification using deep learning.</p>
                                 <a href="#" class="btn-secondary">View Project</a>
                             </div>
                         </div>
-                        <div class="project-card">
-                             <div class="project-info">
-                                <h5>10th At DIU Growing Star</h5>
-                                <p>An achievement from 2023 recognizing growth and potential.</p>
-                            </div>
+                    </div>
+                </section>
+
+                <!-- Publications Section -->
+                <section id="publications" class="tab-content">
+                    <h3 class="section-title">Publications</h3>
+                    <div class="publication-card">
+                        <img src="./images/certificate_placeholder.jpg.jpg" alt="Certificate Placeholder"
+                            class="pub-image">
+                        <div class="pub-content">
+                            <h5>Paper Title on Advanced AI</h5>
+                            <p>Published in the International Journal of Computer Science, 2025.</p>
+                            <a href="#" class="btn-secondary" target="_blank">
+                                Read Publication <i class="fas fa-external-link-alt"></i>
+                            </a>
                         </div>
                     </div>
                 </section>
 
+                <!-- Contact Section -->
                 <section id="contact" class="tab-content">
                     <h3 class="section-title">Get in Touch</h3>
                     <form id="contact-form" class="contact-form">
@@ -181,6 +198,11 @@
                 </section>
             </div>
         </main>
+    </div>
+
+    <!-- Lightbox Overlay Structure -->
+    <div id="lightbox">
+        <img id="lightbox-img" src="" alt="Enlarged Image">
     </div>
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
